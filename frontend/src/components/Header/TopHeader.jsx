@@ -8,49 +8,45 @@ import {
   CiYoutube,
 } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
-import {about , socialMedia} from '../../about'
+import { about, socialMedia } from "../../about";
 
 const TopHeader = () => {
   return (
-    <div className="hidden w-full md:flex flex-row justify-between items-center text-white bg-blue-950 p-2 text-sm">
-      <ul className="flex flex-row items-center gap-3">
-        <li>
-          <span className="flex flex-row gap-1 items-center">
-            <CiLocationOn /> {about.address}
-          </span>
+    <div className="hidden md:flex w-full justify-between items-center bg-blue-950 text-white px-6 py-2 text-sm">
+      <ul className="flex items-center gap-6">
+        <li className="flex items-center gap-1">
+          <CiLocationOn className="text-lg" /> {about.address}
         </li>
+
         <li>
-          <a className="flex flex-row items-center gap-1" href="">
-            <CiPhone /> {about.phone}
+          <a className="flex items-center gap-1 hover:text-blue-300" href={`tel:${about.phone}`}>
+            <CiPhone className="text-lg" /> {about.phone}
           </a>
         </li>
+
         <li>
-          <a href={about.whatsaapHref} className="flex flex-row items-center gap-1">
-            <FaWhatsapp /> Whatsaaptan Ulaş
+          <a
+            href={about.whatsaapHref}
+            target="_blank"
+            className="flex items-center gap-1 hover:text-green-400"
+          >
+            <FaWhatsapp className="text-lg" /> WhatsApp'tan Ulaş
           </a>
         </li>
       </ul>
-      <ul className="flex flex-row items-center gap-3">
-        <li>
-          <a className="text-lg" href={socialMedia.facebook}>
-            <CiFacebook />
-          </a>
-        </li>
-        <li>
-          <a className="text-lg" href={socialMedia.instagram}>
-            <CiInstagram />
-          </a>
-        </li>
-        <li>
-          <a className="text-lg" href={socialMedia.twitter}>
-            <CiTwitter />
-          </a>
-        </li>
-        <li>
-          <a className="text-lg" href={socialMedia.youtube}>
-            <CiYoutube />
-          </a>
-        </li>
+      <ul className="flex items-center gap-4">
+        <a href={socialMedia.facebook} className="text-lg hover:text-blue-400">
+          <CiFacebook />
+        </a>
+        <a href={socialMedia.instagram} className="text-lg hover:text-pink-400">
+          <CiInstagram />
+        </a>
+        <a href={socialMedia.twitter} className="text-lg hover:text-blue-300">
+          <CiTwitter />
+        </a>
+        <a href={socialMedia.youtube} className="text-lg hover:text-red-500">
+          <CiYoutube />
+        </a>
       </ul>
     </div>
   );
