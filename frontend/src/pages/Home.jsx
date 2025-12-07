@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroSection from '../components/Home/HeroSection'
+import ServiceList from '../components/Home/ServiceList'
 
 
  const Home = ()=>{
@@ -7,6 +8,7 @@ import HeroSection from '../components/Home/HeroSection'
 		<>
 		  <section className="w-full">
 			 <HeroSection/>
+			 <ServiceList/>
 		  </section>
 		</>
 	)
