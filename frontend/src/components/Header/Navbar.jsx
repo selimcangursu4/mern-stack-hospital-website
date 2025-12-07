@@ -3,6 +3,7 @@ import { mainMenus, subCategories } from "../../menu";
 import { about } from "../../about";
 import { CiHeadphones } from "react-icons/ci";
 import { FiMenu, FiX } from "react-icons/fi";
+import AmesLogo from '../../assets/ames-logo.png'
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
     <header className="w-full shadow-sm bg-white">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
         <img
-          src="/logo.png"
+          src={AmesLogo}
           alt="hospital-logo"
           className="w-32 object-contain"
         />
