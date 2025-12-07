@@ -12,7 +12,7 @@ import { about, socialMedia } from "../../about";
 
 const TopHeader = () => {
   return (
-    <div className="hidden md:flex w-full justify-between items-center bg-blue-950 text-white px-6 py-2 text-sm">
+    <div className="hidden md:flex w-full justify-between items-center bg-gray-900 text-white px-6 py-2 text-sm">
       <ul className="flex items-center gap-6">
         <li className="flex items-center gap-1">
           <CiLocationOn className="text-lg" /> {about.address}
