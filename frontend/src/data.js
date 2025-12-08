@@ -9,6 +9,29 @@ import HairTransplantDogalSacGorunumu from "./assets/hair-transplant-ile-dogal-s
 import BurunCerrrahisiHakkindaBilmenizGerekenler from "./assets/burun-cerrahisi-hakkinda-bilmeniz-gerekenler.jpg";
 import HollywoodGulusuKusursuzDisler from "./assets/hollywoord-gulusu-kusursuz-disler.webp";
 import LiposuctionIleVucutEstetigi from "./assets/liposuction-ile-vucut-estetigi-kazanma.webp";
+import VucutEstetigiImg from "./assets/vucut-estetigi.jpg";
+import YuzEstetigiImg from "./assets/yuz-estetigi.jpg";
+import LiposuctionImg from "./assets/liposuction.jpg";
+import GogusEstetigi from "./assets/gogus-estetigi.jpg";
+import SacEkimiImg from "./assets/sac-ekimi.webp";
+import SakalEkimiImg from "./assets/sakal-ekimi.jpg";
+import BiyikEkimiImg from "./assets/biyik-ekimi-11.jpg";
+import KasEkimiImg from "./assets/kas-ekimi.jpg";
+import YuzGerdirmeImg from "./assets/ameliyatsiz-yuz-gerdirme.webp";
+import BolgeselIncelmeImg from "./assets/bolgesel-incelme-selulit.jpg";
+import IpAskilamaImg from "./assets/ip-askilama.webp";
+import AntiagingImg from "./assets/antiaging.jpg";
+import TerlemeTedavisiImg from "./assets/asiri-terleme-tedavisi.png";
+import DisTedavisiImg from "./assets/dis-tedavisi.jpg";
+import ProtezTedavisiImg from "./assets/protez-tedavisi.webp";
+import EndotondiImg from "./assets/endotondi.webp";
+import HollywoodSmileImg from "./assets/hollywood-gulusu.webp";
+import ZirkonyumKaplamaImg from "./assets/zirkonyum-kaplama.jpg";
+import PorselenLamineImg from "./assets/porselen-lamine.webp";
+import ImpilantTedavisiImg from "./assets/impilant-tedavisi.jpg";
+
+
+
 
 export const customer_reviews = [
   {
@@ -223,5 +246,176 @@ Planlama, kişinin vücut yapısına göre özelleştirilir ve doğal hatlar kor
     author: "Dr. Canan Yıldız",
     date: "2025-01-18",
     image: LiposuctionIleVucutEstetigi,
+  },
+];
+
+export const services = [
+  {
+    id: "1",
+    name: "Vücut Estetiği",
+    slug: "vucut-estetigi",
+    image: VucutEstetigiImg,
+    content: `Vücut estetiği, kişinin fiziğini yeniden şekillendirmeyi amaçlayan cerrahi ve cerrahi olmayan uygulamaları kapsar. Liposuction, karın germe ve vücut kontürleme gibi işlemlerle estetik görünümünüz desteklenir.`,
+  },
+  {
+    id: "2",
+    name: "Yüz Estetiği",
+    slug: "yuz-estetigi",
+    image: YuzEstetigiImg,
+    content: `Yüz estetiği, burun, çene, elmacık kemikleri ve genel yüz hatlarını iyileştirmeye yönelik uygulamaları içerir. Rinoplasti, yüz germe ve dolgu gibi işlemlerle doğal ve genç bir görünüm sağlanır.`,
+  },
+  {
+    id: "3",
+    name: "Liposuction Estetiği",
+    slug: "liposuction-estetigi",
+    image: LiposuctionImg,
+    content: `Liposuction, vücuttaki fazla yağ dokularının cerrahi yöntemle alınması işlemidir. Bölgesel incelme sağlar ve vücut konturlarını belirginleştirir.`,
+  },
+  {
+    id: "4",
+    name: "Gögüs Estetiği",
+    slug: "gogus-estetigi",
+    image: GogusEstetigi,
+    content: `Göğüs estetiği, memelerin boyut ve şeklini değiştirmek için yapılan cerrahi işlemleri kapsar. Meme büyütme, küçültme veya dikleştirme yöntemleriyle estetik ve simetrik bir görünüm sağlanır.`,
+  },
+  {
+    id: "5",
+    name: "Saç Ekimi",
+    slug: "sac-ekimi",
+    image:SacEkimiImg,
+    content: `Saç ekimi, kellik ve seyrek saç sorunlarını çözmek için uygulanan mikrocerrahi yöntemdir. FUE ve DHI teknikleri ile doğal saç görünümü ve kalıcı sonuçlar elde edilir.`,
+  },
+  {
+    id: "6",
+    name: "Sakal Ekimi",
+    slug: "sakal-ekimi",
+    image: SakalEkimiImg,
+    content: `Sakal ekimi, seyrek veya düzensiz sakal bölgelerini doldurmak için uygulanan cerrahi işlemdir. Doğal görünüm ve simetri sağlanır.`,
+  },
+  {
+    id: "7",
+    name: "Bıyık Ekimi",
+    slug: "biyik-ekimi",
+    image: BiyikEkimiImg,
+    content: `Bıyık ekimi, yüz hatlarını tamamlamak ve bıyık görünümünü yoğunlaştırmak için uygulanan mikrocerrahi bir yöntemdir.`,
+  },
+  {
+    id: "8",
+    name: "Kaş Ekimi",
+    slug: "kas-ekimi",
+    image:KasEkimiImg,
+    content: `Kaş ekimi, seyrek veya dökülmüş kaş bölgelerini doğal görünümle doldurmak için yapılan bir estetik işlemdir.`,
+  },
+  {
+    id: "9",
+    name: "Ameliyatsız Yüz Germe",
+    slug: "ameliyatsiz-yuz-germe",
+    image: YuzGerdirmeImg,
+    content: `Ameliyatsız yüz germe, cilt sıkılaştırma ve gençleştirme için cerrahi olmayan yöntemleri kapsar. İple askılama, dolgu ve lazer uygulamaları ile yüz hatları belirginleşir.`,
+  },
+  {
+    id: "10",
+    name: "Bölgesel İncelme ve Selülit",
+    slug: "bolgesel-incelme-ve-selulit",
+    image: BolgeselIncelmeImg,
+    content: `Bölgesel incelme ve selülit tedavisi, vücuttaki problemli bölgelerde yağ azaltımı ve cilt sıkılaştırma sağlar. Lazer, ultrason ve radyofrekans teknikleri kullanılır.`,
+  },
+  {
+    id: "11",
+    name: "İp Askılama",
+    slug: "ip-askilama",
+    image: IpAskilamaImg,
+    content: `İp askılama, yüz ve boyun bölgesindeki sarkmaları düzeltmek için uygulanan minimal invaziv bir estetik yöntemdir. Ciltte doğal bir germe etkisi sağlar.`,
+  },
+  {
+    id: "12",
+    name: "Cilt Bakımı",
+    slug: "cilt-bakimi",
+    image: AntiagingImg,
+    content: `Cilt bakımı, cildin temizlenmesi, nemlendirilmesi ve gençleştirilmesini sağlayan profesyonel uygulamalardır. Peeling, mezoterapi ve maske yöntemleri ile cilt sağlığı desteklenir.`,
+  },
+  {
+    id: "13",
+    name: "Antiaging",
+    slug: "antiaging",
+    image: AntiagingImg,
+    content: `Antiaging uygulamaları, yaşlanma belirtilerini geciktirmek için yapılan estetik ve medikal işlemleri kapsar. Dolgu, botoks, mezoterapi ve lazer uygulamalarıyla cilt gençleştirilir.`,
+  },
+  {
+    id: "14",
+    name: "Terleme Tedavisi",
+    slug: "terleme-tedavisi",
+    image: TerlemeTedavisiImg,
+    content: `Terleme tedavisi (Botoks veya medikal yöntemlerle), aşırı terlemeyi kontrol altına alarak yaşam kalitesini artırır ve sosyal konfor sağlar.`,
+  },
+  {
+    id: "15",
+    name: "Diş Tedavisi",
+    slug: "dis-tedavisi",
+    image: DisTedavisiImg,
+    content: `Diş tedavisi, sağlıklı ve estetik bir gülüş için yapılan tüm işlemleri kapsar. Dolgu, kanal tedavisi ve diş temizliği ile ağız sağlığı korunur.`,
+  },
+  {
+    id: "16",
+    name: "Protez Tedavisi",
+    slug: "protez-tedavisi",
+    image:ProtezTedavisiImg,
+    content: `Protez tedavisi, eksik dişlerin yerine estetik ve fonksiyonel protezler yerleştirerek hem gülüş hem de çiğneme fonksiyonunu iyileştirir.`,
+  },
+  {
+    id: "17",
+    name: "Endodonti",
+    slug: "endodonti",
+    image: EndotondiImg,
+    content: `Endodonti, dişin kök kanalında oluşan problemleri tedavi eden diş hekimliği alanıdır. Kanal tedavisi ile diş sağlığı korunur ve ağrı önlenir.`,
+  },
+  {
+    id: "18",
+    name: "Hollywood Gülüşü",
+    slug: "hollywood-gulusu",
+    image: HollywoodSmileImg,
+    content: `Hollywood gülüşü tasarımı, dişlerin estetik olarak düzeltilmesini ve uyumlu bir gülüş hattı oluşturulmasını sağlar. Lamine, beyazlatma ve porselen kaplamalar uygulanır.`,
+  },
+  {
+    id: "19",
+    name: "Zirkonyum Kaplama",
+    slug: "zirkonyum-kaplama",
+    image: ZirkonyumKaplamaImg,
+    content: `Zirkonyum kaplama, dişlerin doğal görünümünü koruyarak estetik ve dayanıklı bir çözüm sunar. Çürük ve kırık dişlerin restorasyonu için idealdir.`,
+  },
+  {
+    id: "20",
+    name: "Lamina Porselen",
+    slug: "lamina-porselen",
+    image: PorselenLamineImg,
+    content: `Lamina porselen uygulamaları, dişlerin ön yüzeyine yapıştırılarak estetik bir gülüş sağlar. Renk, şekil ve simetriye önem verilir.`,
+  },
+  {
+    id: "21",
+    name: "İmplant Tedavisi",
+    slug: "implant-tedavisi",
+    image: ImpilantTedavisiImg,
+    content: `İmplant tedavisi, eksik dişlerin yerine titanyum vidalar ile kalıcı diş kökleri oluşturur. Hem fonksiyonel hem de estetik bir çözüm sunar.`,
+  },
+  {
+    id: "22",
+    name: "Penis Kalınlaştırma",
+    slug: "penis-kalinlastirma",
+    image: "",
+    content: `Penis kalınlaştırma işlemleri, doğal görünümü koruyarak penisin çapını artırmayı hedefler. Medikal ve cerrahi teknikler uygulanır.`,
+  },
+  {
+    id: "23",
+    name: "Penis Ereksiyonu",
+    slug: "penis-ereksiyon",
+    image: "",
+    content: `Penis ereksiyon tedavisi, ereksiyon sorunlarını çözmek için medikal ve cerrahi yöntemler kullanır. Hastanın performans ve yaşam kalitesi artırılır.`,
+  },
+  {
+    id: "24",
+    name: "Penis Protez",
+    slug: "penis-protez",
+    image: "",
+    content: `Penis protez uygulamaları, ereksiyon sorunları yaşayan hastalara kalıcı ve güvenli bir çözüm sunar. Fonksiyonel ve estetik sonuçlar elde edilir.`,
   },
 ];
