@@ -6,12 +6,16 @@ import PenisEstetigiImg from "./assets/penis-estetigi.jpg";
 import SakalEkimiImg from "./assets/sakal-ekimi.jpg";
 import BiyikEkimiImg from "./assets/biyik-ekimi-11.jpg";
 import KasEkimiImg from "./assets/kas-ekimi.jpg";
-import CiltBakimiImg from "./assets/cilt-bakimi.jpg"
-import YuzGerdirmeImg from "./assets/ameliyatsiz-yuz-gerdirme.webp"
-import BolgeselIncelmeImg from "./assets/bolgesel-incelme-selulit.jpg"
-import IpAskilamaImg from "./assets/ip-askilama.webp"
-import AntiagingImg from "./assets/antiaging.jpg"
-import TerlemeTedavisiImg from "./assets/asiri-terleme-tedavisi.png"
+import CiltBakimiImg from "./assets/cilt-bakimi.jpg";
+import YuzGerdirmeImg from "./assets/ameliyatsiz-yuz-gerdirme.webp";
+import BolgeselIncelmeImg from "./assets/bolgesel-incelme-selulit.jpg";
+import IpAskilamaImg from "./assets/ip-askilama.webp";
+import AntiagingImg from "./assets/antiaging.jpg";
+import TerlemeTedavisiImg from "./assets/asiri-terleme-tedavisi.png";
+import VucutEstetigiImg from "./assets/vucut-estetigi.jpg"
+import YuzEstetigiImg from "./assets/yuz-estetigi.jpg"
+import LiposuctionImg from "./assets/liposuction.jpg"
+import GogusEstetigi from "./assets/gogus-estetigi.jpg"
 
 export const mainMenus = [
   {
@@ -83,6 +87,9 @@ export const subCategories = [
     name: "Vücut Estetiği",
     slug: "vucut-estetigi",
     link: "/plastik-cerrahi/vucut-estetigi",
+    description:
+      "Vücut estetiği operasyonları ile vücut hatlarınızı şekillendirin, özgüveninizi artırın. Kilo kaybı sonrası sarkmalar veya bölgesel yağlanmalar için kişiye özel çözümler sunuyoruz.",
+    image: VucutEstetigiImg,
   },
   {
     id: 2,
@@ -90,6 +97,9 @@ export const subCategories = [
     name: "Yüz Estetiği",
     slug: "yuz-estetigi",
     link: "/plastik-cerrahi/yuz-estetigi",
+    description:
+      "Yüz estetiği ile doğal ve genç bir görünüm elde edin. Burun, çene, göz kapağı ve yüz hatlarınızdaki estetik dokunuşlar ile yüzünüzün harmonisini yeniden keşfedin.",
+    image: YuzEstetigiImg,
   },
   {
     id: 3,
@@ -97,6 +107,9 @@ export const subCategories = [
     name: "Liposuction Estetiği",
     slug: "liposuction-estetigi",
     link: "/plastik-cerrahi/liposuction-estetigi",
+    description:
+      "Liposuction estetiği ile inatçı bölgesel yağlardan kurtulun. Vücudunuzun hatlarını yeniden şekillendirin ve daha fit bir görünüme kavuşun.",
+    image: LiposuctionImg,
   },
   {
     id: 4,
@@ -104,6 +117,9 @@ export const subCategories = [
     name: "Göğüs Estetiği",
     slug: "gogus-estetigi",
     link: "/plastik-cerrahi/gogus-estetigi",
+    description:
+      "Göğüs estetiği ile istediğiniz göğüs formuna kavuşun. Büyütme, küçültme veya dikleştirme işlemleri ile hem estetik hem de fonksiyonel çözümler sunuyoruz.",
+    image: GogusEstetigi,
   },
   {
     id: 5,
@@ -153,7 +169,7 @@ export const subCategories = [
     link: "/medikal-estetik/ameliyatsiz-yuz-gerdirme",
     description:
       "Cilt sarkmalarını, elastikiyet kaybını ve yaşlanma belirtilerini cerrahi işlem olmadan azaltan güvenli ve etkili yüz gençleştirme yöntemleri.",
-    image:YuzGerdirmeImg,
+    image: YuzGerdirmeImg,
   },
   {
     id: 10,
@@ -163,7 +179,7 @@ export const subCategories = [
     link: "/medikal-estetik/bolgesel-incelme-ve-selulit",
     description:
       "Vücut hatlarını şekillendiren, inatçı yağ dokusunu azaltan ve cilt görünümünü pürüzsüzleştiren modern bölgesel incelme ve selülit tedavileri.",
-    image:BolgeselIncelmeImg,
+    image: BolgeselIncelmeImg,
   },
   {
     id: 11,
@@ -203,7 +219,7 @@ export const subCategories = [
     link: "/medikal-estetik/terleme-tedavisi",
     description:
       "Aşırı terleme problemine yönelik hızlı, etkili ve uzun süreli çözüm sağlayan modern terleme tedavi yöntemlerini sizlere sunuyoruz.",
-    image:TerlemeTedavisiImg,
+    image: TerlemeTedavisiImg,
   },
 
   {

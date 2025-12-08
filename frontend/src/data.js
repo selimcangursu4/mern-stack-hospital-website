@@ -1,3 +1,11 @@
+import award1 from "./assets/ödül-1.jpg"
+import award2 from "./assets/ödül-2.webp"
+import award3 from "./assets/ödül-3.webp"
+import award4 from "./assets/ödül-4.jpg"
+import award5 from "./assets/ödül-5.webp"
+import award6 from "./assets/ödül-6.webp"
+
+
 export const customer_reviews = [
   {
     id: "1",
@@ -89,4 +97,50 @@ export const customer_reviews = [
     service_name: "Medikal Estetik",
     date: "01/03/2025"
   }
+];
+
+
+export const awards = [
+  {
+    id: "1",
+    title: "En İyi Estetik ve Plastik Cerrahi Kliniği",
+    organization: "Türkiye Sağlık Ödülleri",
+    year: 2023,
+    image:award1,
+  },
+  {
+    id: "2",
+    title: " Hasta Memnuniyeti Mükemmellik Ödülü",
+    organization: "Global Uluslararası Health Excellence Awards",
+    year: 2024,
+    image:award2,
+  },
+  {
+    id: "3",
+    title: "Yılın Sağlık Turizmi Merkezi",
+    organization: "Medical Tourism Star Awards",
+    year: 2022,
+    image:award3,
+  },
+  {
+    id: "4",
+    title: "En İyi Burun Estetiği (Rinoplasti) Merkezi",
+    organization: "Aesthetic & Beauty Awards",
+    year: 2023,
+    image:award4,
+  },
+  {
+    id: "5",
+    title: "Hasta Güvenliği ve Kalite Sertifikası",
+    organization: "International Health Quality Association",
+    year: 2021,
+    image:award5,
+  },
+  {
+    id: "6",
+    title: "Yılın Yenilikçi Estetik Uygulaması Ödülü",
+    organization: "European Cosmetic Innovations Forum",
+    year: 2024,
+    image:award6,
+  },
 ];

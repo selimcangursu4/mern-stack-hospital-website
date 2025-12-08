@@ -5,6 +5,7 @@ import AboutSection from "../components/Home/AboutSection";
 import ServiceSection from "../components/Home/ServiceSection";
 import Webform from "../components/Webform";
 import GoogleReviewsSection from "../components/Home/GoogleReviewsSection";
+import AwardsSection from "../components/Home/AwardsSection";
 const Home = () => {
   return (
     <>
@@ -29,7 +30,7 @@ const Home = () => {
           category_slogan="Doğal, estetik ve özgüveninizi artıran sonuçlar için kişiye özel plastik cerrahi çözümleri."
           category_id="2"
         />
-        <Webform />
+        <AwardsSection/>
         <ServiceSection
           category_name="Diş Estetiği"
           category_slogan="Daha beyaz, düzgün ve estetik bir gülüş için modern diş estetiği uygulamaları."
