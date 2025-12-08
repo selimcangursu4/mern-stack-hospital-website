@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header/Header'
+import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import ServiceDetail from './pages/ServiceDetail'
@@ -18,6 +19,7 @@ function App() {
         <Route path="/dis-estetigi/:slug" element={<ServiceDetail />} />
         <Route path="/penis-estetigi/:slug" element={<ServiceDetail />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

@@ -37,12 +37,7 @@ const Home = () => {
           category_id="5"
         />
         <Webform />
-        <ServiceSection
-          category_name="Penis Estetiği"
-          category_slogan="Erkek sağlığı ve özgüveni için profesyonel ve kişiye özel penis estetiği çözümleri."
-          category_id="6"
-        />
-        blog  <br /> footer
+        blog  
       </section>
     </>
   );

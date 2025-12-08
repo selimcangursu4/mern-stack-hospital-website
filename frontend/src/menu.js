@@ -12,10 +12,17 @@ import BolgeselIncelmeImg from "./assets/bolgesel-incelme-selulit.jpg";
 import IpAskilamaImg from "./assets/ip-askilama.webp";
 import AntiagingImg from "./assets/antiaging.jpg";
 import TerlemeTedavisiImg from "./assets/asiri-terleme-tedavisi.png";
-import VucutEstetigiImg from "./assets/vucut-estetigi.jpg"
-import YuzEstetigiImg from "./assets/yuz-estetigi.jpg"
-import LiposuctionImg from "./assets/liposuction.jpg"
-import GogusEstetigi from "./assets/gogus-estetigi.jpg"
+import VucutEstetigiImg from "./assets/vucut-estetigi.jpg";
+import YuzEstetigiImg from "./assets/yuz-estetigi.jpg";
+import LiposuctionImg from "./assets/liposuction.jpg";
+import GogusEstetigi from "./assets/gogus-estetigi.jpg";
+import DisTedavisiImg from "./assets/dis-tedavisi.jpg";
+import ProtezTedavisiImg from "./assets/protez-tedavisi.webp";
+import EndotondiImg from "./assets/endotondi.webp";
+import HollywoodSmileImg from "./assets/hollywood-gulusu.webp";
+import ZirkonyumKaplamaImg from "./assets/zirkonyum-kaplama.jpg";
+import PorselenLamineImg from "./assets/porselen-lamine.webp";
+import ImpilantTedavisiImg from "./assets/impilant-tedavisi.jpg";
 
 export const mainMenus = [
   {
@@ -228,13 +235,19 @@ export const subCategories = [
     name: "Diş Tedavisi",
     slug: "dis-tedavisi",
     link: "/dis-estetigi/dis-tedavisi",
+    description:
+      "Diş tedavisi hizmetlerimizle ağız ve diş sağlığınızı koruyun. Dolgu, temizlik, hijyen ve genel diş kontrolleri ile sağlıklı bir gülüşe kavuşun.",
+    image: DisTedavisiImg,
   },
   {
     id: 15,
     main_category: 5,
     name: "Protez Tedavisi",
-    slug: "lamina-dis",
+    slug: "protez-tedavisi",
     link: "/dis-estetigi/protez-tedavisi",
+    description:
+      "Eksik dişlerinizi protez tedavisi ile tamamlayın. Estetik ve fonksiyonel çözümlerle doğal görünümlü ve konforlu dişlere sahip olun.",
+    image: ProtezTedavisiImg,
   },
   {
     id: 16,
@@ -242,6 +255,9 @@ export const subCategories = [
     name: "Endodonti",
     slug: "endodonti",
     link: "/dis-estetigi/endodonti",
+    description:
+      "Endodonti (kanal tedavisi) hizmetimiz ile diş köklerindeki enfeksiyonları giderin ve dişlerinizi kaybetmeden sağlığını koruyun.",
+    image: EndotondiImg,
   },
   {
     id: 17,
@@ -249,49 +265,49 @@ export const subCategories = [
     name: "Hollywood Gülüşü",
     slug: "hollywood-gulusu",
     link: "/dis-estetigi/hollywood-gulusu",
+    description:
+      "Hollywood gülüşü estetiği ile dişlerinizin rengini, hizalanmasını ve formunu mükemmelleştirin. Parlak ve simetrik bir gülüş elde edin.",
+    image: HollywoodSmileImg,
   },
-
   {
     id: 18,
-    main_category: 5,
-    name: "Hollywood Gülüşü",
-    slug: "hollywood-gulusu",
-    link: "/dis-estetigi/hollywood-gulusu",
-  },
-  {
-    id: 19,
-    main_category: 5,
-    name: "Hollywood Gülüşü",
-    slug: "hollywood-gulusu",
-    link: "/dis-estetigi/hollywood-gulusu",
-  },
-  {
-    id: 20,
-    main_category: 5,
-    name: "İmpilant Tedavisi",
-    slug: "impilant-tedavisi",
-    link: "/dis-estetigi/impilant-tedavisi",
-  },
-  {
-    id: 21,
     main_category: 5,
     name: "Zirkonyum Kaplama",
     slug: "zirkonyum-kaplama",
     link: "/dis-estetigi/zirkonyum-kaplama",
+    description:
+      "Zirkonyum kaplama ile estetik ve dayanıklı dişler. Doğal görünüm, uzun ömür ve yüksek direnç ile kusursuz gülüşler.",
+    image: ZirkonyumKaplamaImg,
   },
   {
-    id: 22,
+    id: 19,
     main_category: 5,
-    name: "İmpilant Tedavisi",
-    slug: "impilant-tedavisi",
-    link: "/dis-estetigi/impilant-tedavisi",
+    name: "Lamina Porselen",
+    slug: "lamina-porselen",
+    link: "/dis-estetigi/lamina-porselen",
+    description:
+      "Lamina porselen uygulamaları ile dişlerinizin görünümünü düzeltin. İnce, estetik ve dayanıklı kaplamalar ile gülüşünüzü yenileyin.",
+    image: PorselenLamineImg,
+  },
+  {
+    id: 20,
+    main_category: 5,
+    name: "İmplant Tedavisi",
+    slug: "implant-tedavisi",
+    link: "/dis-estetigi/implant-tedavisi",
+    description:
+      "İmplant tedavisi ile eksik dişlerinizi kalıcı olarak tamamlayın. Sağlam, doğal görünümlü ve konforlu dişlere kavuşun.",
+    image: ImpilantTedavisiImg,
   },
   {
     id: 23,
     main_category: 6,
     name: "Penis Kalınlaştırma",
     slug: "penis-kalınlastirma",
-    link: "/dis-estetigi/penis-kalinlastirma",
+    link: "/penis-estetigi/penis-kalinlastirma",
+    description:
+      "Penis kalınlaştırma uygulamaları ile doğal ve estetik bir görünüm elde edin. Güvenli ve modern teknikler ile özgüveninizi artırın.",
+    image: "/images/categories/penis-kalinlastirma.jpg",
   },
   {
     id: 17,
@@ -299,6 +315,9 @@ export const subCategories = [
     name: "Penis Ereksiyon",
     slug: "penis-ereksiyon",
     link: "/penis-estetigi/penis-ereksiyon",
+    description:
+      "Penis ereksiyon problemleri için medikal ve cerrahi çözümler sunuyoruz. Fonksiyonel iyileşme ve yaşam kalitenizi artırmayı hedefliyoruz.",
+    image: "/images/categories/penis-erektion.jpg",
   },
   {
     id: 18,
@@ -306,6 +325,9 @@ export const subCategories = [
     name: "Penis Protez",
     slug: "penis-protez",
     link: "/penis-estetigi/penis-protez",
+    description:
+      "Penis protez uygulamaları ile ereksiyon problemlerine kalıcı çözüm. Konforlu, güvenli ve doğal görünümlü protez seçenekleri sunuyoruz.",
+    image: "/images/categories/penis-protez.jpg",
   },
   {
     id: 19,
