@@ -34,7 +34,7 @@ export const mainMenus = [
     id: 2,
     name: "Plastik Cerrahi",
     homeİsView: true,
-    link: "/plastik-cerrahi",
+    link: "#",
     description:
       "Plastik cerrahi ile doğal ve estetik görünüm elde edin. Yüz, burun, meme ve vücut estetiğinde güvenilir çözümler.",
     image: PlastikCerrahiImg,
@@ -43,7 +43,7 @@ export const mainMenus = [
     id: 3,
     name: "Saç Ekimi",
     homeİsView: true,
-    link: "/sac-ekimi",
+    link: "#",
     description:
       "Kalıcı ve doğal saç ekimi yöntemleri ile saç dökülmesine son verin. Modern tekniklerle sağlıklı saç görünümü.",
     image: SacEkimiImg,
@@ -52,7 +52,7 @@ export const mainMenus = [
     id: 4,
     name: "Medikal Estetik",
     homeİsView: true,
-    link: "/medikal-estetik",
+    link: "#",
     description:
       "Cerrahi gerektirmeyen medikal estetik uygulamaları ile gençleşin. Dolgu, botoks, cilt bakımı ve lazer tedavileri.",
     image: MedikalEstetikImg,
@@ -61,7 +61,7 @@ export const mainMenus = [
     id: 5,
     name: "Diş Estetiği",
     homeİsView: true,
-    link: "/dis-estetigi",
+    link: "#",
     description:
       "Gülüşünüzü yeniden tasarlayın. Zirkonyum kaplama, diş beyazlatma ve dolgu ile sağlıklı ve estetik dişler.",
     image: DisEstetigiImg,
@@ -70,7 +70,7 @@ export const mainMenus = [
     id: 6,
     name: "Penis Estetiği",
     homeİsView: true,
-    link: "/penis-estetigi",
+    link: "#",
     description:
       "Erkek sağlığı için güvenli ve modern estetik çözümler. Penis büyütme, şekillendirme ve yenileme işlemleri.",
     image: PenisEstetigiImg,
@@ -78,7 +78,7 @@ export const mainMenus = [
   {
     id: 7,
     name: "Kurumsal",
-    link: "/kurumsal",
+    link: "#",
   },
   {
     id: 8,

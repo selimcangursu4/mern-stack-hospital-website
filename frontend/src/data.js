@@ -29,6 +29,8 @@ import HollywoodSmileImg from "./assets/hollywood-gulusu.webp";
 import ZirkonyumKaplamaImg from "./assets/zirkonyum-kaplama.jpg";
 import PorselenLamineImg from "./assets/porselen-lamine.webp";
 import ImpilantTedavisiImg from "./assets/impilant-tedavisi.jpg";
+import DoctorImage from "./assets/no-image.jpg"
+
 
 export const customer_reviews = [
   {
@@ -437,4 +439,77 @@ export const about = [
     title: "Entegre Yönetim Sistemi Politikamız",
     content:"Ames olarak misyon ve vizyon değerlerimiz çerçevesinde; sürekli standart ve yenilikleri takip etmeyi amaçlayan ve bu yönde kurum olarak kendimizi sürekli iyileştirme ve geliştirme faaliyetlerini sürdürmek, hizmetimizin kalitesinde en üst düzeye ulaşmak üzere aşağıda belirttiğimiz ilkelerimize ve değerlerimize bağlı olarak faaliyetlerimizi gerçekleştirmek üzere taahhütlerimiz; nitelikli ve uluslararası standartlarda sağlık hizmeti sunmak, hasta odaklı hizmet anlayışı ile hasta haklarını gözetmek ve şikayet çözümünde öncü kurum olmak, hasta bilgi gizliği ve mahremiyetini her alanda korumayı hedeflemek, üst düzeyde sağlık hizmeti sunmak için teknolojik yenilikleri ve gelişmeleri sürekli takip etmek, uluslararası standartlar doğrultusunda tedavinin her aşamasında etik değerlerden vazgeçmemek, hasta memnuniyeti ve hasta güvenliği uygulamalarında sürekli iyileştirme ilkesi ile mükemmel sağlık hizmetleri sunmak, hastalarımıza tedavileri boyunca ilgili, sevecen ve şefkatli davranarak kendilerini güvende ve evlerinin rahatlığında hissettirmek, standart ve güncel sağlık rehberlerini takip ederek hasta memnuniyeti odaklı, kaliteli sağlık bakım hizmeti sunmak ve sürekli kendini iyileştiren bir yönetim sistemi ve gelişime açık bir ekip ile hizmetlerini sürekli geliştirmeyi sağlamak, hastalarımız ile yakınlarının ihtiyaç ve beklentilerini mükemmel şekilde karşılamak ve süreçlerden kaynaklanan hataları minimize ederek hizmet sunumu için sürekli gelişmek, nitelikli personel istihdam etmek ve sürekli eğitimle gelişimlerini sağlamak, çalışanlarımızın maddi ve manevi haklarını gözetmek, kişisel ve mesleki gelişimlerini eğitimlerle desteklemek, çalışanlarımıza güvenilir bir çalışma ortamı sağlamak, tüm yerel ve ulusal kanun ve yönetmelikler ile uygulanabilir belirlenmiş şartlara uygunluğunu sağlamak ve sürdürmek, çağdaş ve uluslararası standartlarda sağlık hizmetlerini kaynakları etkin ve verimli kullanarak, doğaya dost ve çevreci bir anlayış içerisinde sunmak ve doğal kaynak tüketimlerini kontrol altına alarak minimize etmek, atıklarımızı tespit edip, atıkların hasta ve çalışan sağlığını tehdit etmeyecek şekilde uzaklaştırılması için oluşturulmuş atık yönetim planı doğrultusunda atıkları minimize etmek ve mümkün olan atıklar için geri kazanım firmalarına göndermek, geri kazanılamayan atıkları kanun ve yönetmeliklere uygun olarak bertaraf için ilgili kurumlara teslim etmek, iş sağlığı ve güvenliği hizmetlerinde yönetmeliklere uygun faaliyet göstermek, hasta ve çalışan güvenliğini en üst düzeyde korumak adına önlemleri sağlamak ve güvenilir bir çalışma ortamı sağlamak, çalışanların öneri dilek şikayetlerini takip etmek, çalışan temsilcileri ve birim sorumluları ile ortak çalışmaları sağlamak ve sorunlar karşısında gerekli iyileştirme çalışma faaliyetlerini sürdürmek."
   },
+];
+
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. Ahmet Yılmaz",
+    specialty: "Plastik Cerrahi",
+    bio: "10 yılı aşkın deneyimiyle estetik ve rekonstrüktif cerrahi alanında hizmet veren Dr. Ahmet Yılmaz, hasta memnuniyetini her zaman ön planda tutar.",
+    image:DoctorImage
+  },
+  {
+    id: 2,
+    name: "Dr. Elif Demir",
+    specialty: "Medikal Estetik",
+    bio: "Dr. Elif Demir, cilt gençleştirme ve estetik dolgu uygulamalarında uzmanlaşmış, modern teknikleri takip eden bir uzmandır.",
+    image: DoctorImage
+  },
+  {
+    id: 3,
+    name: "Dr. Mehmet Kaya",
+    specialty: "Pediatrik Cerrahi",
+    bio: "Çocuk cerrahisi alanında 12 yıllık tecrübeye sahip olan Dr. Mehmet Kaya, küçük hastaların konforunu ön planda tutarak tedavi uygular.",
+    image: DoctorImage
+  },
+  {
+    id: 4,
+    name: "Dr. Ayşe Karaca",
+    specialty: "Saç Ekimi",
+    bio: "Dr. Ayşe Karaca, saç ekimi ve restorasyon işlemlerinde modern teknikleri kullanarak doğal sonuçlar elde eder.",
+    image: DoctorImage
+  },
+  {
+    id: 5,
+    name: "Dr. Canan Özdemir",
+    specialty: "Estetik Cerrahi",
+    bio: "Yüz ve vücut estetiği alanında uzman olan Dr. Canan Özdemir, kişiye özel tedavi planları oluşturur ve güvenli işlemler gerçekleştirir.",
+    image:DoctorImage
+  },
+  {
+    id: 6,
+    name: "Dr. Ali Şahin",
+    specialty: "Medikal Estetik",
+    bio: "Cilt bakımı ve minimal invaziv estetik uygulamalarda uzman olan Dr. Ali Şahin, modern ve güvenli yöntemler kullanır.",
+    image: DoctorImage
+  },
+  {
+    id: 7,
+    name: "Dr. Zeynep Güneş",
+    specialty: "Plastik Cerrahi",
+    bio: "Dr. Zeynep Güneş, rekonstrüktif ve estetik cerrahi alanında deneyimli bir uzmandır, hasta memnuniyetini öncelik olarak görür.",
+    image: DoctorImage
+  },
+  {
+    id: 8,
+    name: "Dr. Murat Aksoy",
+    specialty: "Saç Ekimi",
+    bio: "Saç dökülmesi ve restorasyonu alanında uzman olan Dr. Murat Aksoy, doğal görünümlü saç ekimi teknikleri uygular.",
+    image: DoctorImage
+  },
+  {
+    id: 9,
+    name: "Dr. Selin Yıldız",
+    specialty: "Pediatrik Cerrahi",
+    bio: "Çocuk sağlığı ve cerrahi müdahalelerde 10 yılı aşkın tecrübeye sahip olan Dr. Selin Yıldız, güvenli ve konforlu tedavi sağlar.",
+    image: DoctorImage
+  },
+  {
+    id: 10,
+    name: "Dr. Burak Çelik",
+    specialty: "Estetik Cerrahi",
+    bio: "Vücut şekillendirme ve estetik cerrahi uygulamalarında uzman olan Dr. Burak Çelik, kişiye özel tedavi planları oluşturur.",
+    image: DoctorImage
+  }
 ];

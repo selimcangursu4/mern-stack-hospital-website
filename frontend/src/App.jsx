@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import ServiceDetail from './pages/ServiceDetail'
 import About from './pages/About';
+import Doctors from "./pages/Doctors"
+import DoctorDetail from "./pages/DoctorDetail"
 
 function App() {
 
@@ -19,6 +21,9 @@ function App() {
         <Route path="/dis-estetigi/:slug" element={<ServiceDetail />} />
         <Route path="/penis-estetigi/:slug" element={<ServiceDetail />} />
         <Route path="/kurumsal/hakkimizda" element={<About />} />
+        <Route path="/kurumsal/doktorlarimiz" element={<Doctors />} />
+        <Route path="/kurumsal/doktorlarimiz/:doctor_id" element={<DoctorDetail />} />
+    
 
       </Routes>
       <Footer/>
