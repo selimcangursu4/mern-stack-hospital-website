@@ -30,9 +30,6 @@ import ZirkonyumKaplamaImg from "./assets/zirkonyum-kaplama.jpg";
 import PorselenLamineImg from "./assets/porselen-lamine.webp";
 import ImpilantTedavisiImg from "./assets/impilant-tedavisi.jpg";
 
-
-
-
 export const customer_reviews = [
   {
     id: "1",
@@ -282,7 +279,7 @@ export const services = [
     id: "5",
     name: "Saç Ekimi",
     slug: "sac-ekimi",
-    image:SacEkimiImg,
+    image: SacEkimiImg,
     content: `Saç ekimi, kellik ve seyrek saç sorunlarını çözmek için uygulanan mikrocerrahi yöntemdir. FUE ve DHI teknikleri ile doğal saç görünümü ve kalıcı sonuçlar elde edilir.`,
   },
   {
@@ -303,7 +300,7 @@ export const services = [
     id: "8",
     name: "Kaş Ekimi",
     slug: "kas-ekimi",
-    image:KasEkimiImg,
+    image: KasEkimiImg,
     content: `Kaş ekimi, seyrek veya dökülmüş kaş bölgelerini doğal görünümle doldurmak için yapılan bir estetik işlemdir.`,
   },
   {
@@ -359,7 +356,7 @@ export const services = [
     id: "16",
     name: "Protez Tedavisi",
     slug: "protez-tedavisi",
-    image:ProtezTedavisiImg,
+    image: ProtezTedavisiImg,
     content: `Protez tedavisi, eksik dişlerin yerine estetik ve fonksiyonel protezler yerleştirerek hem gülüş hem de çiğneme fonksiyonunu iyileştirir.`,
   },
   {
@@ -417,5 +414,27 @@ export const services = [
     slug: "penis-protez",
     image: "",
     content: `Penis protez uygulamaları, ereksiyon sorunları yaşayan hastalara kalıcı ve güvenli bir çözüm sunar. Fonksiyonel ve estetik sonuçlar elde edilir.`,
+  },
+];
+
+export const about = [
+  {
+    title: "Ames Health",
+    content:
+      "Merkezi İstanbul-Şişli’de bulunan ve Newyork’ta şubesi bulunan Ames, değişime sizin gözünüzden bakan ve sizin mutluluğunuzu önemseyen bir kurumdur. Plastik Cerrahi, Medikal Estetik, Pediatrik Cerrahi ve Saç Ekimi gibi alanlarda size değişim ve memnuniyetin garantisini veren ve işini severek yapan personeliyle hizmet sunmanın gururunu yaşayan bir sağlık kuruluşudur.",
+  },
+  {
+    title: "Misyonumuz",
+    content:
+      "Tıbbın en temel doğrusu olan 'önce zarar vermemek' prensibiyle hareket eden ve etik değerlerden ödün vermeyen, nitelikli sağlık ve estetik hizmetini sunduğu bireylerin hasta haklarını gözeterek tüm ihtiyaç, istek ve beklentilerini karşılayan; güvenilir, ulaşılabilir, kesintisiz, düzeyli ve yüksek hizmet kalitesi ile hasta memnuniyetini daima ön planda tutan bir sağlık kuruluşu olarak insanımızın mutluluğuna katkıda bulunacak şekilde hizmet sunmaktır.",
+  },
+  {
+    title: "Vizyonumuz",
+    content:
+      "Sağlık ve estetik hizmetlerinde toplam kalite ilkelerine uygun, uluslararası standartlarda, güvenilirliği ve saygınlığı ile sürekliliği sağlayan, yenilikçi ürün ve hizmetleriyle dokunduğu hayatları iyileştiren ve öncelikle tercih edilen bir sağlık ve estetik kuruluşu olmaktır.",
+  },
+  {
+    title: "Entegre Yönetim Sistemi Politikamız",
+    content:"Ames olarak misyon ve vizyon değerlerimiz çerçevesinde; sürekli standart ve yenilikleri takip etmeyi amaçlayan ve bu yönde kurum olarak kendimizi sürekli iyileştirme ve geliştirme faaliyetlerini sürdürmek, hizmetimizin kalitesinde en üst düzeye ulaşmak üzere aşağıda belirttiğimiz ilkelerimize ve değerlerimize bağlı olarak faaliyetlerimizi gerçekleştirmek üzere taahhütlerimiz; nitelikli ve uluslararası standartlarda sağlık hizmeti sunmak, hasta odaklı hizmet anlayışı ile hasta haklarını gözetmek ve şikayet çözümünde öncü kurum olmak, hasta bilgi gizliği ve mahremiyetini her alanda korumayı hedeflemek, üst düzeyde sağlık hizmeti sunmak için teknolojik yenilikleri ve gelişmeleri sürekli takip etmek, uluslararası standartlar doğrultusunda tedavinin her aşamasında etik değerlerden vazgeçmemek, hasta memnuniyeti ve hasta güvenliği uygulamalarında sürekli iyileştirme ilkesi ile mükemmel sağlık hizmetleri sunmak, hastalarımıza tedavileri boyunca ilgili, sevecen ve şefkatli davranarak kendilerini güvende ve evlerinin rahatlığında hissettirmek, standart ve güncel sağlık rehberlerini takip ederek hasta memnuniyeti odaklı, kaliteli sağlık bakım hizmeti sunmak ve sürekli kendini iyileştiren bir yönetim sistemi ve gelişime açık bir ekip ile hizmetlerini sürekli geliştirmeyi sağlamak, hastalarımız ile yakınlarının ihtiyaç ve beklentilerini mükemmel şekilde karşılamak ve süreçlerden kaynaklanan hataları minimize ederek hizmet sunumu için sürekli gelişmek, nitelikli personel istihdam etmek ve sürekli eğitimle gelişimlerini sağlamak, çalışanlarımızın maddi ve manevi haklarını gözetmek, kişisel ve mesleki gelişimlerini eğitimlerle desteklemek, çalışanlarımıza güvenilir bir çalışma ortamı sağlamak, tüm yerel ve ulusal kanun ve yönetmelikler ile uygulanabilir belirlenmiş şartlara uygunluğunu sağlamak ve sürdürmek, çağdaş ve uluslararası standartlarda sağlık hizmetlerini kaynakları etkin ve verimli kullanarak, doğaya dost ve çevreci bir anlayış içerisinde sunmak ve doğal kaynak tüketimlerini kontrol altına alarak minimize etmek, atıklarımızı tespit edip, atıkların hasta ve çalışan sağlığını tehdit etmeyecek şekilde uzaklaştırılması için oluşturulmuş atık yönetim planı doğrultusunda atıkları minimize etmek ve mümkün olan atıklar için geri kazanım firmalarına göndermek, geri kazanılamayan atıkları kanun ve yönetmeliklere uygun olarak bertaraf için ilgili kurumlara teslim etmek, iş sağlığı ve güvenliği hizmetlerinde yönetmeliklere uygun faaliyet göstermek, hasta ve çalışan güvenliğini en üst düzeyde korumak adına önlemleri sağlamak ve güvenilir bir çalışma ortamı sağlamak, çalışanların öneri dilek şikayetlerini takip etmek, çalışan temsilcileri ve birim sorumluları ile ortak çalışmaları sağlamak ve sorunlar karşısında gerekli iyileştirme çalışma faaliyetlerini sürdürmek."
   },
 ];
