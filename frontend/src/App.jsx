@@ -7,7 +7,7 @@ import ServiceDetail from './pages/ServiceDetail'
 import About from './pages/About';
 import Doctors from "./pages/Doctors"
 import DoctorDetail from "./pages/DoctorDetail"
-
+import Contact from './pages/Contact';
 function App() {
 
   return (
@@ -23,8 +23,8 @@ function App() {
         <Route path="/kurumsal/hakkimizda" element={<About />} />
         <Route path="/kurumsal/doktorlarimiz" element={<Doctors />} />
         <Route path="/kurumsal/doktorlarimiz/:doctor_id" element={<DoctorDetail />} />
-    
-
+        <Route path="/iletisim" element={<Contact />} />
+  
       </Routes>
       <Footer/>
     </BrowserRouter>
