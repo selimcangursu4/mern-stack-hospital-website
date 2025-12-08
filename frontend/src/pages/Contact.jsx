@@ -2,13 +2,11 @@ import React from "react";
 import { about } from "../data";
 
 const Contact = () => {
-  // about dizisinin ilk elemanındaki iletişim bilgilerini alıyoruz
   const contactInfo = about[0];
 
   return (
     <section className="w-full py-20 px-4 md:px-20 bg-gray-50">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-        {/* İletişim Bilgileri */}
         <div className="flex flex-col gap-6">
           <h2 className="text-4xl font-bold text-gray-900">Bize Ulaşın</h2>
           <p className="text-gray-700 text-lg leading-relaxed">
@@ -25,7 +23,6 @@ const Contact = () => {
               <h3 className="font-semibold text-gray-900">Telefon</h3>
               <p className="text-gray-600">{contactInfo.phone}</p>
             </div>
-
             <div className="flex gap-4 mt-4">
               {contactInfo.facebook && (
                 <a
