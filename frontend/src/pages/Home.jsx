@@ -6,6 +6,7 @@ import ServiceSection from "../components/Home/ServiceSection";
 import Webform from "../components/Webform";
 import GoogleReviewsSection from "../components/Home/GoogleReviewsSection";
 import AwardsSection from "../components/Home/AwardsSection";
+import BlogSection from "../components/Home/BlogSection";
 const Home = () => {
   return (
     <>
@@ -37,7 +38,7 @@ const Home = () => {
           category_id="5"
         />
         <Webform />
-        blog  
+        <BlogSection/>
       </section>
     </>
   );
