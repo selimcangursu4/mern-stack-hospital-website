@@ -343,11 +343,5 @@ export const subCategories = [
     slug: "doktorlarimiz",
     link: "/kurumsal/doktorlarimiz",
   },
-  {
-    id: 21,
-    main_category: 7,
-    name: "İnsan Kaynakları",
-    slug: "insan-kaynaklari",
-    link: "/kurumsal/insan-kaynaklari",
-  },
+
 ];
